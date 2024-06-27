@@ -1,0 +1,112 @@
+/*
+   *******************************
+   Général Style CSS
+   *******************************
+*/
+
+/* font & icon */
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+
+/* Fichiers liés */
+@import url(header.css);
+@import url(search.css);
+@import url(filres.css);
+@import url(card.css);
+@import url(activites.css);
+@import url(footer.css);
+
+/******* Couleurs *******/
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+/* Icon */
+.fa-solid {
+    color: var(--main-color);
+}
+
+/* Link */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/******* Strutures *******/
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+/******* Configuration du texte *******/
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: var(--black);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h2 {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3 {
+    color: var(--black);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+p {
+    color: var(--black);
+    font-style: normal;
+    font-size: 16px;
+}
+
+text {
+    color: var(--black);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/*
+   *******************************
+   Écran de taille moyenne (tablettes, ≤ 1024px maximum)
+   *******************************
+*/
+@media (max-width: 1024px) {
+    .hebergements-and-populaires {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    /* Hébergements */
+    .hebergements {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* Populaires */
+    .populaires {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
