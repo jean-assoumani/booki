@@ -63,13 +63,13 @@
 4. **Remplacement du contenu :**
    - Remplace le contenu des différentes "cards" dupliquées par celui spécifié dans la maquette pour "Hébergements à Marseille".
 
-### Étape 6 : Intégration de la section "Activités à Marseille"
+### Étape 8 : Intégration de la section "Activités à Marseille"
 
 1. **Intégration de la section :**
    - Utiliser Flexbox ou Grid pour organiser et aligner les éléments de la section "Activités à Marseille" selon les spécifications de la maquette.
    - Vérifier d'identifier et de structurer correctement les différents éléments et blocs de cette section en fonction du découpage de la maquette.
 
-### Étape 6 : Réalisation du footer
+### Étape 9 : Réalisation du footer
 
 1. **Structure du footer :**
    - Utiliser la balise `<footer>` pour encapsuler le contenu du pied de page.
@@ -79,7 +79,7 @@
    - Appliquer les styles CSS appropriés pour aligner et mettre en forme les éléments du footer selon les standards de conception de ton projet.
    - Vérifier que le contenu du footer est complet et inclus toutes les informations nécessaires comme les mentions légales, les liens vers les réseaux sociaux, etc.
 
-### Vérification avec les validateurs W3C
+### Étape 10 : Vérification avec les validateurs W3C
 
 1. **Validation HTML :**
    - Utiliser le validateur HTML du W3C (https://validator.w3.org/) pour vérifier le code HTML respecte les normes et ne contient pas d'erreurs syntaxiques.
@@ -89,7 +89,7 @@
    - Utilise le validateur CSS du W3C (https://jigsaw.w3.org/css-validator/) pour vérifier le code CSS est valide et ne contient pas d'erreurs.
    - Vérifier que toutes les propriétés CSS sont correctement écrites et supportées par les navigateurs.
 
-### Étape 7 : Version desktop fonctionnelle
+### Étape 11 : Version desktop fonctionnelle
 
 1. **Définition des largeurs maximale et minimale :**
    - Définir une largeur maximale à 1440px en utilisant des unités appropriées en CSS (comme `max-width`).
