@@ -82,11 +82,11 @@
 ### Étape 10 : Vérification avec les validateurs W3C
 
 1. **Validation HTML :**
-   - Utiliser le validateur HTML du W3C (https://validator.w3.org/) pour vérifier le code HTML respecte les normes et ne contient pas d'erreurs syntaxiques.
+   - Utiliser le [validateur HTML du W3C](https://validator.w3.org/) pour vérifier le code HTML respecte les normes et ne contient pas d'erreurs syntaxiques.
    - Vérifier que toutes les balises sont correctement ouvertes et fermées, et que les attributs sont utilisés de manière appropriée.
 
 2. **Validation CSS :**
-   - Utilise le validateur CSS du W3C (https://jigsaw.w3.org/css-validator/) pour vérifier le code CSS est valide et ne contient pas d'erreurs.
+   - Utilise le [validateur CSS du W3C](https://jigsaw.w3.org/css-validator/) pour vérifier le code CSS est valide et ne contient pas d'erreurs.
    - Vérifier que toutes les propriétés CSS sont correctement écrites et supportées par les navigateurs.
 
 ### Étape 11 : Version desktop fonctionnelle
