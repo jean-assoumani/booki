@@ -1,14 +1,14 @@
-![Booki](images/booki.png)
-
 # Booki
 
-### Étape 1 : Mise en place de l'environnement de développement
+![Booki](images/booki.png)
+
+### Mise en place de l'environnement de développement
 
 - Installer et configurer mon éditeur de code Visual Studio Code.
 - Mettre en place un serveur local pour le développement PHP/WordPress (j'utilise MAMP Pro sur iMac).
 - Création d'une nouvelle structure de projet.
 
-### Étape 2 : Découpe de la maquette HTML
+### Découpe de la maquette HTML
 
 1. **Analyse de la maquette :**
    - Identifier tous les éléments visibles sur la maquette comme le logo, la barre de recherche, les sections d'hébergement et d'activités, etc.
@@ -16,27 +16,27 @@
    - Associer chaque élément à sa balise HTML appropriée (par exemple, un logo sera généralement dans une balise `<img>`).
 
 2. **Disposition horizontale vs verticale :**
-   - Détermine quand positionner les éléments horizontalement (comme les filtres dans une barre de navigation) ou verticalement (comme les cartes dans une section "les plus populaires").
+   - Détermine quand positionner les éléments horizontalement ou verticalement.
    - Vérifier que chaque bloc de la maquette est structuré de manière logique et conforme aux principes de design web.
 
-### Étape 3 : Intégration du code de l'en-tête de la page
+### Intégration du code de l'en-tête de la page
    - Encapsuler l'en-tête de la page.
    - Intégration de la barre de navigation principale.
    - Appliquer Flexbox ou Grid pour aligner le logo Booki et les sections Hébergements/Activités selon les spécifications de la maquette.
    - Intégrer la bordure bleue qui s'affiche au survol des éléments spécifiques.
    - Privilégier l'utilisation de pixels plutôt que des pourcentages pour assurer une mise en page stable et prévisible.
 
-### Étape 4 : Intégration du formulaire de recherche
+### Intégration du formulaire de recherche
    - Analyser la maquette pour identifier les trois parties distinctes du formulaire de recherche.
    - Utiliser les balises HTML appropriées comme <form>, <input>, <button>, et éventuellement <label> pour une accessibilité améliorée.
    - Utiliser les styles CSS pour mettre en forme les différents éléments du formulaire selon les spécifications visuelles (tailles, couleurs, espacements).
 
-### Étape 5 : Réalisation de la partie Filtre
+### Réalisation de la partie Filtre
    - Utiliser Flexbox pour positionner et aligner les éléments des filtres selon la disposition définie sur la maquette Booki.
    - Intégrer les filtres sans prendre en compte les changements d'apparence au survol.
    - Implémenter le changement de couleur de fond ou d'autres styles spécifiés pour le survol des éléments.
 
-### Étape 6 : Intégration de la première carte d'hébergement
+### Intégration de la première carte d'hébergement
 
 1. **Création de la carte d'hébergement :**
    - S'inspirer des cartes déjà intégrées pour "les plus populaires", mais ajuster l'alignement des éléments pour correspondre aux spécifications des cartes d'hébergement (alignement vertical).
@@ -46,7 +46,7 @@
    - Vérifier de définir une largeur en pourcentage (%) pour l'image, suivie d'une hauteur en pixels (px) pour éviter les distorsions.
    - Utiliser la propriété CSS `object-fit` pour contrôler comment l'image est ajustée dans son conteneur sans déformer sa proportion.
 
-### Étape 7 : Réalisation de la première "card" pour "Hébergements à Marseille"
+### Réalisation de la première "card" pour "Hébergements à Marseille"
 
 1. **Intégration de la première "card" :**
    - Utiliser les balises HTML appropriées pour structurer la "card" selon la maquette fournie.
@@ -63,13 +63,13 @@
 4. **Remplacement du contenu :**
    - Remplace le contenu des différentes "cards" dupliquées par celui spécifié dans la maquette pour "Hébergements à Marseille".
 
-### Étape 8 : Intégration de la section "Activités à Marseille"
+### Intégration de la section "Activités à Marseille"
 
 1. **Intégration de la section :**
    - Utiliser Flexbox ou Grid pour organiser et aligner les éléments de la section "Activités à Marseille" selon les spécifications de la maquette.
    - Vérifier d'identifier et de structurer correctement les différents éléments et blocs de cette section en fonction du découpage de la maquette.
 
-### Étape 9 : Réalisation du footer
+### Réalisation du footer
 
 1. **Structure du footer :**
    - Utiliser la balise `<footer>` pour encapsuler le contenu du pied de page.
@@ -79,7 +79,7 @@
    - Appliquer les styles CSS appropriés pour aligner et mettre en forme les éléments du footer selon les standards de conception de ton projet.
    - Vérifier que le contenu du footer est complet et inclus toutes les informations nécessaires comme les mentions légales, les liens vers les réseaux sociaux, etc.
 
-### Étape 10 : Vérification avec les validateurs W3C
+### Vérification avec les validateurs W3C
 
 1. **Validation HTML :**
    - Utiliser le [validateur HTML du W3C](https://validator.w3.org/) pour vérifier le code HTML respecte les normes et ne contient pas d'erreurs syntaxiques.
@@ -89,7 +89,7 @@
    - Utilise le [validateur CSS du W3C](https://jigsaw.w3.org/css-validator/) pour vérifier le code CSS est valide et ne contient pas d'erreurs.
    - Vérifier que toutes les propriétés CSS sont correctement écrites et supportées par les navigateurs.
 
-### Étape 11 : Version desktop fonctionnelle
+### Version desktop fonctionnelle
 
 1. **Définition des largeurs maximale et minimale :**
    - Définir une largeur maximale à 1440px en utilisant des unités appropriées en CSS (comme `max-width`).
