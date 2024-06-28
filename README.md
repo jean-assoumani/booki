@@ -106,5 +106,5 @@
   - Tester le comportement du site à différentes résolutions telles que 1024px, 1440px et les résolutions intermédiaires pour détecter et corriger d'éventuelles incohérences.
   - Vérifier que le contenu s'adapte de manière fluide sans pertes de lisibilité ou de fonctionnalité sur les différentes résolutions desktop.
 
-#### Voir le projet en ligne : 🔗 [Booki](https://jean-assoumani.github.io/booki/)
+#### Voir le projet en ligne : 🔗 [Booki](https://booki.assoumani.pro/)
 ***<p>Projet 3 - Créez la page d'accueil d'une agence de voyage avec HTML & CSS - Openclassrooms 2024</p>***
