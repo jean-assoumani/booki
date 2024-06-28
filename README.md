@@ -2,8 +2,8 @@
 
 ![Booki](images/booki.png)
 
-***<p>"Portail de Recherches pour Hébergements et Activités Urbaines*** <br>
-***L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix."</p>***
+***<p>"Portail de Recherches pour Hébergements et Activités Urbaines,*** <br>
+***l’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix."</p>***
 
 ### Mise en place de l'environnement de développement
 
