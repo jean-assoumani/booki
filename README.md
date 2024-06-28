@@ -2,6 +2,9 @@
 
 ![Booki](images/booki.png)
 
+***"Portail de Recherches pour Hébergements et Activités Urbaines***
+***L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix."***
+
 ### Mise en place de l'environnement de développement
 
 - Installer et configurer mon éditeur de code Visual Studio Code.
